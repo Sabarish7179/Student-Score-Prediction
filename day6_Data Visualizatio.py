@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("clean_student_scores.csv")
+data = pd.read_csv("Data/clean_student_scores.csv")
 
 # Scatter Plot
 plt.scatter(data["Hours"], data["Score"])
