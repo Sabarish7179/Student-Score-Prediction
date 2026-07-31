@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Load dataset
-data = pd.read_csv("clean_student_scores.csv")
+data = pd.read_csv("Data/clean_student_scores.csv")
 
 # Feature and target
 X = data[["Hours"]]
